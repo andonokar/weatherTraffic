@@ -1,0 +1,38 @@
+path: delta # can use any spark path, local, s3a, gcp, blob, dbfs, hdfs, etc
+
+weather:
+  api_key: 39e5033200dafe4ec95afa2b7972db6f
+  endpoint: https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={key}&units=metric
+  folder_name: weather
+cities:
+  manaus:
+    lat: -3.00
+    long: -60.00
+  brasilia:
+    lat: -15.00
+    long: -47.00
+  rio_de_janeiro:
+    lat: -22.00
+    long: -43.00
+  sao_paulo:
+    lat: -23.00
+    long: -46.00
+  recife:
+    lat: -8.00
+    long: -34.00
+  salvador:
+    lat: -12.00
+    long: -38.00
+  goiania:
+    lat: -16.00
+    long: -49.00
+  belo_horizonte:
+    lat: -19.00
+    long: -43.00
+  curitiba:
+    lat: -25.00
+    long: -49.00
+  florianopolis:
+    lat: -27.00
+    long: -48.00
+
