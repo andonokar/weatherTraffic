@@ -1,5 +1,7 @@
 path: delta # can use any spark path, local, s3a, gcp, blob, dbfs, hdfs, etc
-
+traffic:
+  api_key: 5b3ce3597851110001cf624862191bae71b34deda53374dc60ad811f
+  endpoint: https://api.openrouteservice.org/v2/directions/driving-car
 weather:
   api_key: 39e5033200dafe4ec95afa2b7972db6f
   endpoint: https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={key}&units=metric
