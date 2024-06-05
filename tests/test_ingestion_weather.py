@@ -8,7 +8,11 @@ from src.ingestion import raw_ingestion_weather
 
 class TestIngestionWeather(TestCase):
     def setUp(self):
-        self.spark = SparkSession.builder.getOrCreate()
+        self.spark = (SparkSession.builder
+                      .config("spark.jars.packages", "io.delta:delta-core_2.12:2.3.0")
+                      .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
+                      .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
+                      .getOrCreate())
 
     def tearDown(self):
         shutil.rmtree("delta")
