@@ -11,8 +11,10 @@ To run this application, you need to have Python installed. Follow the steps bel
 1. clone this repo and install the requirements
 2. configure the yaml with the necessary configuration
 3. note that the path configuration accepts any spark format to scale the pipeline
-4. setup a job for weather ingestion using spark-submit to the cluster you want
-5. run the streamlit dashboard when you need info on directions or weather
+4. Note that spark also will need to be able to operate with delta tables
+5. It's better to configure spark operability with delta tables on spark environment itself and not hardcode
+6. setup a job for weather ingestion using spark-submit to the cluster you want
+7. run the streamlit dashboard when you need info on directions or weather
 
 TODO:
 1. Integrate traffic info with weather infos
