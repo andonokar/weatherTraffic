@@ -1,0 +1,448 @@
+[
+    {
+      "coord": {
+        "lon": -60,
+        "lat": -3
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 29.06,
+        "feels_like": 35.82,
+        "temp_min": 29.05,
+        "temp_max": 29.06,
+        "pressure": 1014,
+        "humidity": 84
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 2.06,
+        "deg": 190
+      },
+      "clouds": {
+        "all": 40
+      },
+      "dt": 1717512397,
+      "sys": {
+        "type": 1,
+        "id": 8356,
+        "country": "BR",
+        "sunrise": 1717495197,
+        "sunset": 1717538231
+      },
+      "timezone": -14400,
+      "id": 3754114,
+      "name": "Parque das Laranjeiras",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": -47,
+        "lat": -15
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 29.75,
+        "feels_like": 29.2,
+        "temp_min": 29.75,
+        "temp_max": 29.75,
+        "pressure": 1018,
+        "humidity": 38,
+        "sea_level": 1018,
+        "grnd_level": 946
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 2.53,
+        "deg": 78,
+        "gust": 3.59
+      },
+      "clouds": {
+        "all": 99
+      },
+      "dt": 1717512397,
+      "sys": {
+        "country": "BR",
+        "sunrise": 1717493298,
+        "sunset": 1717533889
+      },
+      "timezone": -10800,
+      "id": 3463140,
+      "name": "Formosa",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": -43,
+        "lat": -22
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 25.65,
+        "feels_like": 25.55,
+        "temp_min": 25.46,
+        "temp_max": 25.65,
+        "pressure": 1022,
+        "humidity": 49,
+        "sea_level": 1022,
+        "grnd_level": 968
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 1.55,
+        "deg": 216,
+        "gust": 2.14
+      },
+      "clouds": {
+        "all": 0
+      },
+      "dt": 1717512397,
+      "sys": {
+        "type": 2,
+        "id": 2020152,
+        "country": "BR",
+        "sunrise": 1717493110,
+        "sunset": 1717532157
+      },
+      "timezone": -10800,
+      "id": 3448033,
+      "name": "Sapucaia",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": -46,
+        "lat": -23
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 19.31,
+        "feels_like": 19.31,
+        "temp_min": 18.96,
+        "temp_max": 19.31,
+        "pressure": 1025,
+        "humidity": 77,
+        "sea_level": 1025,
+        "grnd_level": 924
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 1.52,
+        "deg": 138,
+        "gust": 1.75
+      },
+      "clouds": {
+        "all": 92
+      },
+      "dt": 1717512372,
+      "sys": {
+        "type": 1,
+        "id": 8434,
+        "country": "BR",
+        "sunrise": 1717493946,
+        "sunset": 1717532761
+      },
+      "timezone": -10800,
+      "id": 6322578,
+      "name": "São José dos Campos",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": -34,
+        "lat": -8
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 27.95,
+        "feels_like": 31.25,
+        "temp_min": 27.95,
+        "temp_max": 27.95,
+        "pressure": 1014,
+        "humidity": 75,
+        "sea_level": 1014,
+        "grnd_level": 1014
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 5.9,
+        "deg": 105,
+        "gust": 6.34
+      },
+      "clouds": {
+        "all": 40
+      },
+      "dt": 1717512397,
+      "sys": {
+        "country": "BR",
+        "sunrise": 1717489456,
+        "sunset": 1717531491
+      },
+      "timezone": -7200,
+      "id": 3393536,
+      "name": "Olinda",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": -38,
+        "lat": -12
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 27.62,
+        "feels_like": 29.51,
+        "temp_min": 27.62,
+        "temp_max": 27.62,
+        "pressure": 1017,
+        "humidity": 66,
+        "sea_level": 1017,
+        "grnd_level": 1002
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 3.37,
+        "deg": 155,
+        "gust": 4.44
+      },
+      "clouds": {
+        "all": 100
+      },
+      "dt": 1717512397,
+      "sys": {
+        "country": "BR",
+        "sunrise": 1717490824,
+        "sunset": 1717532043
+      },
+      "timezone": -10800,
+      "id": 3466973,
+      "name": "Cardeal da Silva",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": -49,
+        "lat": -16
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 25.29,
+        "feels_like": 24.71,
+        "temp_min": 25.29,
+        "temp_max": 25.29,
+        "pressure": 1018,
+        "humidity": 32,
+        "sea_level": 1018,
+        "grnd_level": 920
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 2.88,
+        "deg": 98,
+        "gust": 3.23
+      },
+      "clouds": {
+        "all": 98
+      },
+      "dt": 1717512397,
+      "sys": {
+        "type": 1,
+        "id": 8319,
+        "country": "BR",
+        "sunrise": 1717493885,
+        "sunset": 1717534262
+      },
+      "timezone": -10800,
+      "id": 3453512,
+      "name": "Pirenópolis",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": -43,
+        "lat": -19
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 26.22,
+        "feels_like": 26.22,
+        "temp_min": 26.22,
+        "temp_max": 26.22,
+        "pressure": 1021,
+        "humidity": 44,
+        "sea_level": 1021,
+        "grnd_level": 937
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 2.3,
+        "deg": 113,
+        "gust": 3.18
+      },
+      "clouds": {
+        "all": 55
+      },
+      "dt": 1717512397,
+      "sys": {
+        "country": "BR",
+        "sunrise": 1717492771,
+        "sunset": 1717532496
+      },
+      "timezone": -10800,
+      "id": 3464513,
+      "name": "Dores de Guanhães",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": -49,
+        "lat": -25
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 11.62,
+        "feels_like": 11.37,
+        "temp_min": 11.62,
+        "temp_max": 11.62,
+        "pressure": 1027,
+        "humidity": 97,
+        "sea_level": 1027,
+        "grnd_level": 917
+      },
+      "wind": {
+        "speed": 1.24,
+        "deg": 98,
+        "gust": 5.12
+      },
+      "clouds": {
+        "all": 100
+      },
+      "dt": 1717512397,
+      "sys": {
+        "type": 2,
+        "id": 231297,
+        "country": "BR",
+        "sunrise": 1717494904,
+        "sunset": 1717533243
+      },
+      "timezone": -10800,
+      "id": 3469598,
+      "name": "Bocaiúva do Sul",
+      "cod": 200
+    },
+    {
+      "coord": {
+        "lon": -48,
+        "lat": -27
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 17.12,
+        "feels_like": 16.74,
+        "temp_min": 17.12,
+        "temp_max": 17.12,
+        "pressure": 1028,
+        "humidity": 71,
+        "sea_level": 1028,
+        "grnd_level": 1028
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 5.73,
+        "deg": 197,
+        "gust": 5.82
+      },
+      "clouds": {
+        "all": 100
+      },
+      "dt": 1717512397,
+      "sys": {
+        "country": "BR",
+        "sunrise": 1717494910,
+        "sunset": 1717532757
+      },
+      "timezone": -10800,
+      "id": 3469522,
+      "name": "Bombas",
+      "cod": 200
+    }
+  ]
