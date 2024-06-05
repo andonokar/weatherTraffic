@@ -1,6 +1,5 @@
-from src.loader import config
+from config.loader import config
 from src.ingestion import raw_ingestion_weather
-from datetime import date
 
 from pyspark.sql import SparkSession
 builder = SparkSession.builder

@@ -6,33 +6,33 @@ weather:
   folder_name: weather
 cities:
   manaus:
-    lat: -3.00
-    long: -60.00
+    lat: -3.1170
+    long: -60.0258
   brasilia:
-    lat: -15.00
-    long: -47.00
+    lat: -15.7939
+    long: -47.8828
   rio_de_janeiro:
-    lat: -22.00
-    long: -43.00
+    lat: -22.9083
+    long: -43.1964
   sao_paulo:
-    lat: -23.00
-    long: -46.00
+    lat: -23.5340
+    long: -46.6289
   recife:
-    lat: -8.00
-    long: -34.00
+    lat: -8.0500
+    long: -34.9000
   salvador:
-    lat: -12.00
-    long: -38.00
+    lat: -12.9747
+    long: -38.4767
   goiania:
-    lat: -16.00
-    long: -49.00
+    lat: -16.6651
+    long: -49.2860
   belo_horizonte:
-    lat: -19.00
-    long: -43.00
+    lat: -19.9130
+    long: -43.9409
   curitiba:
-    lat: -25.00
-    long: -49.00
+    lat: -25.4411
+    long: -49.2769
   florianopolis:
-    lat: -27.00
-    long: -48.00
+    lat: -27.5935
+    long: -48.5585
 

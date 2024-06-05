@@ -53,7 +53,7 @@ def raw_ingestion_weather(urls: list[str], spark: SparkSession, path: str) -> No
 
     responses = [{"coord": {x: float(y) for x, y in response.get("coord").items()},
                   "weather": response.get("weather"),
-                  "main": response.get("main"),
+                  "main": {x: float(y) for x, y in response.get("main").items()},
                   "visibility": response.get("visibility"),
                   "clouds": response.get("clouds"),
                   "wind": {x: float(y) for x, y in response.get("wind").items()}} for response in responses if response["cod"] == 200]
@@ -61,14 +61,14 @@ def raw_ingestion_weather(urls: list[str], spark: SparkSession, path: str) -> No
               .add("coord", MapType(StringType(), DoubleType()))
               .add("weather", ArrayType(MapType(StringType(), StringType())))
               .add("main", StructType().add("temp_min", DoubleType()).add("temp_max", DoubleType()).add("humidity",
-                                                                                                        LongType()))
+                                                                                                        DoubleType()))
               .add("visibility", LongType())
               .add("clouds", MapType(StringType(), LongType()))
               .add("wind", StructType().add("speed", DoubleType()))
               )
     df = spark.createDataFrame(responses, schema)
     final_df = df.select(
-        col("coord").getField("lon").alias("lon"),
+        col("coord").getField("lon").alias("long"),
         col("coord").getField("lat").alias("lat"),
         col("weather").getItem(0).getField("description").alias("weather_description"),
         col("main").getField("temp_min").alias("min_temperature"),
@@ -85,3 +85,5 @@ def raw_ingestion_weather(urls: list[str], spark: SparkSession, path: str) -> No
      .format("delta")
      .partitionBy("date")
      .save(path))
+
+
